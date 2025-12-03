@@ -1,0 +1,6 @@
+fastapi
+pydantic
+pandas
+streamlit
+uvicorn
+scikit-learn==1.6.1
