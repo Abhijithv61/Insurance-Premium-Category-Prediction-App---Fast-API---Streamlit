@@ -1,7 +1,11 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/predict" 
+# # Uncomment to run the app in your local machine/Local Host
+# API_URL = "http://127.0.0.1:8000/predict" 
+
+# Uncomment to connect to the app delployed on AWS EC2
+API_URL = "http://54.173.58.116:8000/predict" 
 
 st.title("Insurance Premium Category Predictor")
 st.markdown("Enter your details below:")
